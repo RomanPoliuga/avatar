@@ -1,17 +1,106 @@
-.container{
-    width: 1440px;
-    padding: 0 15px;
-    outline: 2px dashed red;
-    margin: 0 auto;
-  }
-  .header{
-    background-image: url('../image/fon.svg') ;
-   
-    width: 1440px;
-    height: 150px;
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "HeadlandOne", sans-serif;
+  --third-family: "Hammersmith One", sans-serif;
 }
-  .hero{
-    width:1440px ;
-    height: 740px;
-    background-image: url('../image/fon-1.svg');
-  }
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  outline: 2px dashed red;
+  margin: 0 auto;
+}
+.header {
+  background-image: url("../image/fon.svg");
+
+  width: 1440px;
+  height: 150px;
+}
+.header-link {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+.hero {
+  width: 1440px;
+  height: 740px;
+  background-image: url("../image/fon-1.svg");
+}
+.hero-content {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+.button {
+  background-image: url("../image/fon-2.svg");
+  height: 741px;
+}
+.expression {
+  height: 350px;
+}
+.expression-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  text-align: justify;
+  color: #0a3853;
+}
+.expression-content {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: justify;
+  color: #000;
+}
+.phrase-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  text-align: justify;
+  color: #141414;
+}
+.teaching {
+  background-image: url("../image/fon-3.svg");
+  height: 704px;
+}
+.teaching-content {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: justify;
+  color: #141414;
+}
+.teaching-title{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 32px;
+text-align: justify;
+color: #141414;
+}
+.footer{
+background-image: url('../image/fon.svg')
+}
+.footer-content{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #fff;
+}
+.footer-content-small{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-align: justify;
+color: #fff;
+}
+.btn{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 20px;
+text-align: justify;
+color: #26c6ea;
+}
