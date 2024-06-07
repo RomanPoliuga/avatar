@@ -4,16 +4,26 @@
   --third-family: "Hammersmith One", sans-serif;
 }
 .container {
-  width: 1440px;
+  width: 1062px;
   padding: 0 15px;
   outline: 2px dashed red;
   margin: 0 auto;
 }
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+.flex{
+  display: flex;
+}
 .header {
-  background-image: url("../image/fon.svg");
-
-  width: 1440px;
-  height: 150px;
+padding-bottom: 63px;
+padding-top:63px ;
+  background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("../image/fon.svg");
 }
 .header-link {
   font-family: var(--font-family);
@@ -22,8 +32,21 @@
   text-align: center;
   color: #fff;
 }
+.header-list-child{
+   
+  justify-content: center;
+ margin-right: 38px;
+}
+.header-logo{
+  margin-left: auto;
+  margin-right:180px ;
+}
+.header-list-child:nth-child(3){
+  margin-right: 212px; 
+}
 .hero {
-  width: 1440px;
+  
+  margin-bottom: 75px;
   height: 740px;
   background-image: url("../image/fon-1.svg");
 }
@@ -33,11 +56,43 @@
   font-size: 20px;
   color: #fff;
 }
+.hero-list{
+  margin-top: 180px;
+  margin-bottom:179px ;
+  width: 376px;
+  display: block;
+}
+.hero-list-child-2:nth-child(1){
+  margin-bottom: 24px;
+}
+.hero-list-child-2:nth-child(2){
+  margin-bottom: 24px;
+  
+}
+.hero-list-child:nth-child(3){
+margin-bottom: 42px;
+
+}
+.hero-list-2{
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom:301px ;
+  margin-left:606px ;
+  display: block;
+  width: 50px;
+ height:141px ; 
+ 
+}
 .button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 75px;
   background-image: url("../image/fon-2.svg");
   height: 741px;
 }
 .expression {
+  margin-bottom: 10px;
   height: 350px;
 }
 .expression-title {
@@ -62,6 +117,8 @@
   color: #141414;
 }
 .teaching {
+  text-align: center;
+  margin-bottom: 75px;
   background-image: url("../image/fon-3.svg");
   height: 704px;
 }
@@ -73,7 +130,23 @@
   text-align: justify;
   color: #141414;
 }
+.teaching-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 24px;
+  justify-content: center;
+
+}
+.teaching-list-child{
+  flex-basis: calc((100% - 80px) / 3);
+  padding: 36px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: "Headland One", serif;
+  text-align: center;
+}
 .teaching-title{
+  margin-bottom:45px ;
   font-family: var(--second-family);
 font-weight: 400;
 font-size: 32px;
@@ -81,7 +154,11 @@ text-align: justify;
 color: #141414;
 }
 .footer{
-background-image: url('../image/fon.svg')
+  padding-top: 53px;
+  padding-bottom: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url('../image/fon.svg');
 }
 .footer-content{
   font-family: var(--font-family);
@@ -97,10 +174,33 @@ font-size: 14px;
 text-align: justify;
 color: #fff;
 }
+.footer-flex{
+  display: flex;
+  gap: 80px;
+}
 .btn{
+ padding-top:9px ;
+ padding-bottom: 8px;
+ padding-right: 8px;
+ padding-left: 38px;
+  text-align: center;
+  border: 2px solid #26c7ea;
+border-radius: 35px 0;
+width: 141px;
+height: 41px;
   font-family: var(--second-family);
 font-weight: 400;
 font-size: 20px;
 text-align: justify;
 color: #26c6ea;
+background-color: #0B0E66;
+}
+.btn:nth-child(1){
+  height: 80px;
+  width: 260px;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  padding-right: 31px;
+  padding-left: 30px;
+   text-align: center;
 }
