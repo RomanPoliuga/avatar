@@ -24,6 +24,8 @@ ul {
 padding-bottom: 63px;
 padding-top:63px ;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("../image/fon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header .btn{
   align-self: center;
@@ -56,6 +58,8 @@ padding-top:63px ;
   margin-bottom: 75px;
   height: 740px;
   background-image: url("../image/fon-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-content {
   font-family: var(--font-family);
@@ -96,7 +100,10 @@ margin-bottom: 42px;
   align-items: center;
   margin-bottom: 75px;
   background-image: url("../image/fon-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 741px;
+  
 }
 .expression {
   text-align: center;
@@ -133,6 +140,9 @@ margin-bottom: 42px;
   text-align: center;
   margin-bottom: 75px;
   background-image: url("../image/fon-3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
   height: 704px;
 }
 .teaching-content {
