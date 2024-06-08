@@ -25,7 +25,11 @@ padding-bottom: 63px;
 padding-top:63px ;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("../image/fon.svg");
 }
+.header .btn{
+  align-self: center;
+}
 .header-link {
+ 
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 20px;
@@ -43,6 +47,9 @@ padding-top:63px ;
 }
 .header-list-child:nth-child(3){
   margin-right: 212px; 
+}
+.header-list{
+  align-items: center;
 }
 .hero {
   
@@ -92,17 +99,23 @@ margin-bottom: 42px;
   height: 741px;
 }
 .expression {
+  text-align: center;
   margin-bottom: 10px;
   height: 350px;
 }
 .expression-title {
+  text-align: center;
+  width: 1002px;
+  margin-bottom:16px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 36px;
-  text-align: justify;
   color: #0a3853;
 }
 .expression-content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:8px ;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 24px;
@@ -139,6 +152,7 @@ margin-bottom: 42px;
 
 }
 .teaching-list-child{
+  align-items: center;
   flex-basis: calc((100% - 80px) / 3);
   padding: 36px 20px;
   background-color: rgba(255, 255, 255, 0.7);
