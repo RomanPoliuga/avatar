@@ -24,8 +24,8 @@ ul {
   width: 1600px;
   margin-right: auto;
   margin-left: auto;
-padding-bottom: 63px;
-padding-top:63px ;
+padding-bottom: 39px;
+padding-top:39px ;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("../image/fon.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,7 @@ padding-top:63px ;
   width: 1600px;
   margin-right: auto;
   margin-left: auto;
- padding-top: 179px; 
+  padding-top: 179px; 
    padding-bottom:179px ; 
   background-image: url("../image/fon-1.svg");
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ margin-bottom: 42px;
   display: flex;
   text-align: center;
   align-items: center;
-  margin-bottom: 75px;
+  padding-bottom: 75px;
   background-image: url("../image/fon-2.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,8 +114,8 @@ margin-bottom: 42px;
 }
 .expression {
   text-align: center;
-  margin-bottom: 10px;
-  height: 350px;
+ padding-top:75px ;
+ padding-bottom:10px ;
 }
 .expression-title {
   text-align: center;
@@ -148,12 +148,12 @@ margin-bottom: 42px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  margin-bottom: 75px;
+  padding-top:58px ;
+  padding-bottom: 58px;
   background-image: url("../image/fon-3.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-size: cover;
-  height: 704px;
 }
 .teaching-content {
   font-family: var(--second-family);
@@ -162,18 +162,17 @@ margin-bottom: 42px;
   line-height: 100%;
   color: #141414;
 }
-.teaching-list{
+.teaching-list{;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 40px;
+  column-gap: 36px;
   row-gap: 24px;
   justify-content: center;
 
 }
 .teaching-list-child{
-  align-items: center;
-  flex-basis: calc((100% - 80px) / 3);
-  padding: 36px 20px;
+  flex-basis: calc((100% - 72px) / 3);
+  padding: 36px 0px;
   background-color: rgba(255, 255, 255, 0.7);
   font-family: "Headland One", serif;
   text-align: center;
