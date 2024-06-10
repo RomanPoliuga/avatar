@@ -1,6 +1,6 @@
 :root {
   --font-family: "Inter", sans-serif;
-  --second-family: "HeadlandOne", sans-serif;
+  --second-family: "Headland One", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
 }
 .container {
@@ -162,11 +162,11 @@ margin-bottom: 42px;
   line-height: 100%;
   color: #141414;
 }
-.teaching-list{;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 36px;
-  row-gap: 24px;
+.teaching-list{
+  display:flex;
+  flex-wrap:wrap;
+  column-gap:36px;
+  row-gap:24px;
   justify-content: center;
 
 }
@@ -214,10 +214,15 @@ color: #141414;
 background-image: linear-gradient( rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url('../image/fon.svg');
 }
 .footer-content{
+  display:flex ;
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 20px;
 color: #fff;
+}
+.footer-list{
+  padding-top: 45px;
+  padding-bottom:36px ;
 }
 .footer-content-small{
   font-family: var(--font-family);
@@ -232,10 +237,10 @@ color: #fff;
 .btn{
  padding-top:9px ;
  padding-bottom: 8px;
- padding-right: 8px;
+ padding-right: 38px;
  padding-left: 38px;
-  text-align: center;
-  border: 2px solid #26c7ea;
+text-align: center;
+border: 2px solid #26c7ea;
 border-radius: 35px 0;
 width: 141px;
 height: 41px;
