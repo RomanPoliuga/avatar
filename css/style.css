@@ -60,6 +60,14 @@ padding-top:39px ;
 .header-link:focus{
   color:#94CFFF ;
 }
+.swiper-list{
+  position: absolute;
+    right: 48px;
+    top: 64px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 .hero {
   width: 1600px;
   margin-right: auto;
