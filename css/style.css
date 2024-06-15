@@ -157,6 +157,7 @@ ul {
   margin-right: auto;
 }
 .phrase-title {
+  margin-bottom: 16px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 36px;
@@ -235,6 +236,9 @@ ul {
     ),
     url("../image/fon.svg");
 }
+.footer-list-child:first-child{
+  margin-bottom:16px ;
+}
 .footer-content {
   display: flex;
   font-family: var(--font-family);
@@ -260,8 +264,8 @@ ul {
 .btn {
   padding-top: 9px;
   padding-bottom: 8px;
-  padding-right: 38px;
-  padding-left: 38px;
+  padding-right: 20px;
+  padding-left: 20px;
   text-align: center;
   border: 2px solid #26c7ea;
   border-radius: 35px 0;
