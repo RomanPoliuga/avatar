@@ -1,4 +1,12 @@
 :root {
+  --color-content: #fff;
+  --color-text-btn: #26c6ea;
+  --border-btn: #26c7ea;
+  --background-color-btn: #0b0e66;
+  --color-btn-hover: #94cfff;
+  --color-content-dark: #0a3853;
+  --color-author: #000000;
+  --darker-color-content: #141414;
   --font-family: "Inter", sans-serif;
   --second-family: "Headland One", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
@@ -236,8 +244,8 @@ ul {
     ),
     url("../image/fon.svg");
 }
-.footer-list-child:first-child{
-  margin-bottom:16px ;
+.footer-list-child:first-child {
+  margin-bottom: 16px;
 }
 .footer-content {
   display: flex;
