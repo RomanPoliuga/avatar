@@ -135,6 +135,7 @@ ul {
   margin-bottom: 42px;
 }
 .hero-list-2 {
+  align-items: flex-end;
   margin-left: auto;
   display: flex;
   flex-direction: column;
